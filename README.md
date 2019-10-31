@@ -108,7 +108,7 @@ Body request:
 }
 ```
 
-- Register Elasticsearch Sink Connector:
+- Register Elasticsearch Sink Connector: [Issue troubleshoot about body request ES](https://github.com/confluentinc/kafka-connect-elasticsearch/issues/230) 
 ```
 [POST] http://localhost:8083/connectors/
 
