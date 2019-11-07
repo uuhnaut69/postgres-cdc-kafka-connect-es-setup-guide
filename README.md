@@ -46,6 +46,9 @@ A tutorial setup ETL Postgres CDC -> Kafka Connect -> ES
   && cd .. \
   && rm -rf wal2json
   ```
+
+**Or Using Docker Images:** [Here](https://hub.docker.com/r/debezium/postgres)  
+  
 **Enable Replication on the PostgreSQL server**
 
 - Open ``` postgresql.conf ``` file. Find and edit as below configuration.
